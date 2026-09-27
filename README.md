@@ -2,11 +2,11 @@
 [![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
 
 # website
-[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/website&target_branch=19.0)
-[![Pre-commit Status](https://github.com/OCA/website/actions/workflows/pre-commit.yml/badge.svg?branch=19.0)](https://github.com/OCA/website/actions/workflows/pre-commit.yml?query=branch%3A19.0)
-[![Build Status](https://github.com/OCA/website/actions/workflows/test.yml/badge.svg?branch=19.0)](https://github.com/OCA/website/actions/workflows/test.yml?query=branch%3A19.0)
-[![codecov](https://codecov.io/gh/OCA/website/branch/19.0/graph/badge.svg)](https://codecov.io/gh/OCA/website)
-[![Translation Status](https://translation.odoo-community.org/widgets/website-19-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/website-19-0/?utm_source=widget)
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/website&target_branch=20.0)
+[![Pre-commit Status](https://github.com/OCA/website/actions/workflows/pre-commit.yml/badge.svg?branch=20.0)](https://github.com/OCA/website/actions/workflows/pre-commit.yml?query=branch%3A20.0)
+[![Build Status](https://github.com/OCA/website/actions/workflows/test.yml/badge.svg?branch=20.0)](https://github.com/OCA/website/actions/workflows/test.yml?query=branch%3A20.0)
+[![codecov](https://codecov.io/gh/OCA/website/branch/20.0/graph/badge.svg)](https://codecov.io/gh/OCA/website)
+[![Translation Status](https://translation.odoo-community.org/widgets/website-20-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/website-20-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
 
@@ -22,15 +22,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[portal_invitation_by_website](portal_invitation_by_website/) | 19.0.1.0.0 |  | Restrict portal users to a specific website from the invitation wizard
-[website_conditional_visibility_user_group](website_conditional_visibility_user_group/) | 19.0.1.0.0 |  | Only internal users will see the blocks you add this condition to
-[website_cookiefirst](website_cookiefirst/) | 19.0.1.0.0 |  | Cookiefirst integration
-[website_form_require_legal](website_form_require_legal/) | 19.0.1.0.1 |  | Add possibility to require confirm legal terms.
-[website_forum_subscription](website_forum_subscription/) | 19.0.1.0.0 |  | Adds a button to allow subscription from the website
-[website_google_tag_manager](website_google_tag_manager/) | 19.0.1.0.0 |  | Add support for Google Tag Manager
-[website_require_login](website_require_login/) | 19.0.1.0.0 |  | Website Login Required
-[website_snippet_big_button](website_snippet_big_button/) | 19.0.1.0.0 |  | A snippet that adds two big buttons
-[website_snippet_marginless_gallery](website_snippet_marginless_gallery/) | 19.0.1.0.0 |  | Add a snippet to have a marginless image gallery
+[website_require_login](website_require_login/) | 20.0.1.0.0 |  | Website Login Required
 
 [//]: # (end addons)
 

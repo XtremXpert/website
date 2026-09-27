@@ -1,5 +1,0 @@
-- [Tecnativa](https://www.tecnativa.com):
-  - David Vidal
-  - Stefan Ungureanu
-  - Carolina Fernandez
-  - Pilar Vargas
