@@ -26,9 +26,14 @@ class IrHttp(models.AbstractModel):
     @classmethod
     def _check_require_auth(cls):
         # if not website request - skip
-        website = request.env["website"].sudo().get_current_website()
+        # Odoo 20: the current website comes from the context (env.website); before the
+        # website's own fallback runs, only the host's website (host_id) may be known.
+        website = request.env.website
+        if not website and request.env.context.get("host_id"):
+            website = request.env["website"].browse(request.env.context["host_id"])
         if not website:
             return None
+        website = website.sudo()
         if request.env.uid and (request.env.uid != website.user_id.id):
             return None
         auth_paths = (
